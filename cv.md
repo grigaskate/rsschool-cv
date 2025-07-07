@@ -23,3 +23,15 @@ I’m an engineer of telecommunications. I’m interested in Web Development bec
 - Git, GitHub
 - Figma
 - Trello, Notion
+
+---
+
+### Education:
+
+Belarusian State University of Informatics and Radioelectronics
+
+---
+
+### English Language:
+
+A2 (B1 in process)
