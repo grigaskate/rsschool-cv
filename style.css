@@ -83,7 +83,6 @@ body {
   width: 100%;
   height: auto;
   object-fit: cover;
-  border-radius: 5px;
 }
 
 .section {
@@ -111,14 +110,27 @@ body {
 li {
   margin-bottom: 5px;
 }
+
 .footer {
   background-color: #223e48;
+  color: #fff;
   min-height: 5vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
 }
 
-svg {
-  max-width: 40px;
-  min-height: 40px;
+.footer-github img {
+  width: 20px;
+  height: 20px;
+}
+
+.footer-rsschool {
+  width: 50px;
+  height: auto;
 }
 
 h1 {
@@ -127,7 +139,7 @@ h1 {
   font-weight: 700;
 }
 
-h3 {
+h2 {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: 500;
