@@ -1,3 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 body {
-  background-color: rgb(242, 237, 237);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #223e48;
+  color: #fff;
+  min-height: 5vh;
+}
+
+.nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  align-content: center;
+  list-style: none;
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+  transition: 0.3s;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  min-height: 90vh;
+}
+
+.left-side,
+.right-side {
+  padding: 30px 20px 10px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.left-side {
+  background-color: rgba(34, 62, 72, 0.1);
+}
+
+.img-avatar {
+  text-align: center;
+  overflow: hidden;
+}
+
+.image-avatar img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.section {
+  margin: 10px 0;
+}
+
+.section-name {
+  background-color: #223e48;
+  border-radius: 5px;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  max-width: 200px;
+  padding: 5px 0;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.contact {
+  list-style: none;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.footer {
+  background-color: #223e48;
+  color: #fff;
+  min-height: 5vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.footer-github img {
+  width: 20px;
+  height: 20px;
+}
+
+.footer-rsschool {
+  width: 50px;
+  height: auto;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
 }
